@@ -19,6 +19,6 @@ int solve(String s) {
 }
 
 void main() {
-  String value = 'codeoiwarriors ';
+  String value = 'codeoiwarriors';
   print(solve(value));
 }
