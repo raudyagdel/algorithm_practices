@@ -2,7 +2,7 @@
 Create a function that takes an integer as an argument and returns "Even" for even numbers or "Odd" for odd numbers.
  */
 
-const word = ['Even', 'Odd'];
+const parity = ['Even', 'Odd'];
 
 extension Parity on int {
   String parity() => this % 2 == 0 ? 'Even' : 'Odd';
@@ -10,7 +10,7 @@ extension Parity on int {
 
 String evenOrOdd_v1(int number) => number.isEven ? 'Even' : 'Odd';
 String evenOrOdd_v2(int number) => number.parity();
-String evenOrOdd_v3(int number) => word[number % 2];
+String evenOrOdd_v3(int number) => parity[number % 2];
 
 void main() {
   int value = 2;
