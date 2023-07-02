@@ -13,7 +13,7 @@ extension Word on bool {
 
 String bool_to_word_v1(bool boolean) => boolean ? 'Yes' : 'No';
 String bool_to_word_v2(bool boolean) => boolean.toWord();
-String bool_to_word_v3(bool boolean) => toWord[boolean];
+String? bool_to_word_v3(bool boolean) => toWord[boolean];
 
 void main() {
   print(bool_to_word_v1(true));

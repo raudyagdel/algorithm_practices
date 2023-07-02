@@ -11,7 +11,7 @@ void main() {
 
   // Processing
   var total_1 = 0, total_2 = 0;
-  data.forEach((match) => {total_1 += scores_1[match.trim()], total_2 += scores_2[match.trim()]});
+  data.forEach((match) => {total_1 += scores_1[match.trim()]!, total_2 += scores_2[match.trim()]!});
 
   // *
   print(total_1);

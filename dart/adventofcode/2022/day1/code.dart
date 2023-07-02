@@ -6,7 +6,7 @@ void main() {
   List<String> data = new LineSplitter().convert(new File('input').readAsStringSync());
 
   // Processing
-  List<int> elfs = List();
+  List<int> elfs = [];
   int calories = 0;
   data.forEach((n) => {
         if (n.isEmpty) {elfs.add(calories), calories = 0} else {calories += int.parse(n)}
