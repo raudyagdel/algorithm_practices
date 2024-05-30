@@ -1,0 +1,7 @@
+name: mouredev
+version: 1.0.0
+environment:
+  sdk: '>=3.2.0'
+
+dependencies:
+  http: ^1.2.0
